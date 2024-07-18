@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseller Dimsum Mbledos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .header {
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 150px 0;
+        }
+        .header h1 {
+            font-size: 4em;
+        }
+        .benefit-item, .testimonial-item {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background-color: #ff6666;
+            border-color: #ff6666;
+        }
+        .btn-primary:hover {
+            background-color: #ff4d4d;
+            border-color: #ff4d4d;
+        }
+        .dummy-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header text-center">
+        <div class="container">
+            <h1>Dimsum Mbledos</h1>
+            <p class="lead">Peluang Bisnis Menguntungkan Bersama Kami!</p>
+            <a href="#join" class="btn btn-primary btn-lg">Jadi Reseller</a>
+        </div>
+    </header>
+
+    <section class="about py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Tentang Dimsum Mbledos</h2>
+            <p class="text-center">Dimsum Mbledos adalah produk dimsum premium dengan rasa autentik yang disukai banyak orang. Dibuat dari bahan berkualitas dan diolah dengan higienis, Dimsum Mbledos menawarkan pengalaman rasa yang luar biasa di setiap gigitan.</p>
+            <div class="text-center">
+                <img src="https://via.placeholder.com/800x400" alt="Dimsum Mbledos" class="dummy-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Keuntungan Menjadi Reseller</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="benefit-item p-4 text-center">
+                        <h3>Margin Keuntungan Tinggi</h3>
+                        <p>Dapatkan keuntungan menarik dengan margin penjualan yang tinggi.</p>
+                        <img src="https://via.placeholder.com/150" alt="Keuntungan Tinggi" class="dummy-image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefit-item p-4 text-center">
+                        <h3>Dukungan Pemasaran</h3>
+                        <p>Kami menyediakan materi promosi dan strategi pemasaran untuk mendukung penjualan Anda.</p>
+                        <img src="https://via.placeholder.com/150" alt="Dukungan Pemasaran" class="dummy-image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefit-item p-4 text-center">
+                        <h3>Produk Berkualitas</h3>
+                        <p>Dimsum Mbledos dibuat dengan bahan premium yang memastikan kualitas terbaik.</p>
+                        <img src="https://via.placeholder.com/150" alt="Produk Berkualitas" class="dummy-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Testimoni Reseller</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-item p-4 mb-4">
+                        <p>"Menjadi reseller Dimsum Mbledos adalah keputusan terbaik! Produk laris manis dan dukungan dari tim sangat membantu." - Indah, Jakarta</p>
+                        <img src="https://via.placeholder.com/150" alt="Testimoni Indah" class="dummy-image">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-item p-4 mb-4">
+                        <p>"Dimsum Mbledos mudah dijual karena rasanya yang enak dan kemasannya menarik. Saya sangat puas!" - Agus, Bandung</p>
+                        <img src="https://via.placeholder.com/150" alt="Testimoni Agus" class="dummy-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join py-5 bg-light" id="join">
+        <div class="container">
+            <h2 class="text-center mb-4">Daftar Menjadi Reseller</h2>
+            <p class="text-center">Isi form di bawah ini untuk bergabung bersama kami dan mulai menjual Dimsum Mbledos.</p>
+            <form action="submit-form.php" method="post" class="mx-auto" style="max-width: 600px;">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">No. Telepon:</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">Kota:</label>
+                    <input type="text" id="city" name="city" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Daftar Sekarang</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer py-4 text-center">
+        <div class="container">
+            <p>&copy; 2024 Dimsum Mbledos. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
